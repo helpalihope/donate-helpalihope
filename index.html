@@ -22,8 +22,8 @@
   <meta name="twitter:description" content="Support Ali Raza's honest journey to recover from $210,000 debt after falling victim to Pakistan's largest crypto scam." />
   <meta name="twitter:creator" content="@helpalihope" />
   <link rel="canonical" href="https://helpalihope.com" />
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/helpalihope/donate-helpalihope/main/logo.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/helpalihope/donate-helpalihope/main/logo.png" />
   <title>Ali Raza's Fight Against Crypto Fraud - Help Recovery from $210K Debt</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <style>
@@ -107,6 +107,7 @@
       border: 1px solid rgba(255, 255, 255, 0.1);
       border-radius: 50px;
       display: flex;
+      align-items: center;
       gap: 30px;
       transition: all 0.3s ease;
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
@@ -115,6 +116,17 @@
     nav:hover {
       transform: translateX(-50%) translateY(-2px);
       box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .logo {
+      height: 35px;
+      width: auto;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .logo:hover {
+      transform: scale(1.1);
     }
 
     nav a {
@@ -625,6 +637,10 @@
         max-width: 400px;
       }
 
+      .logo {
+        height: 30px;
+      }
+
       nav a {
         font-size: 14px;
         padding: 8px 15px;
@@ -686,6 +702,10 @@
     }
 
     @media (max-width: 480px) {
+      .logo {
+        height: 25px;
+      }
+
       .hero h1 {
         font-size: clamp(1.5rem, 7vw, 2.5rem);
       }
@@ -935,6 +955,7 @@
 
   <!-- Navigation -->
   <nav>
+    <img src="https://raw.githubusercontent.com/helpalihope/donate-helpalihope/main/logo.png" alt="Help Ali Hope Logo" class="logo">
     <a href="#story"><i class="fas fa-book"></i> Story</a>
     <a href="#donate"><i class="fas fa-heart"></i> Donate</a>
   </nav>
