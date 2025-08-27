@@ -26,13 +26,13 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <title>Ali Raza's Fight Against Crypto Fraud - Help Recovery from $210K Debt</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       line-height: 1.7;
@@ -41,7 +41,6 @@
       overflow-x: hidden;
       scroll-behavior: smooth;
     }
-
     /* Animated Background */
     .bg-animation {
       position: fixed;
@@ -54,7 +53,6 @@
       background-size: 400% 400%;
       animation: gradientShift 15s ease infinite;
     }
-
     .bg-animation::before {
       content: '';
       position: absolute;
@@ -67,18 +65,15 @@
                   radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.2) 0%, transparent 50%);
       animation: float 20s ease-in-out infinite;
     }
-
     @keyframes gradientShift {
       0%, 100% { background-position: 0% 50%; }
       50% { background-position: 100% 50%; }
     }
-
     @keyframes float {
       0%, 100% { transform: translateY(0px) rotate(0deg); }
       33% { transform: translateY(-30px) rotate(2deg); }
       66% { transform: translateY(15px) rotate(-1deg); }
     }
-
     /* Glass morphism effect */
     .glass {
       background: rgba(255, 255, 255, 0.1);
@@ -86,14 +81,12 @@
       border: 1px solid rgba(255, 255, 255, 0.2);
       border-radius: 20px;
     }
-
     .glass-dark {
       background: rgba(0, 0, 0, 0.4);
       backdrop-filter: blur(25px);
       border: 1px solid rgba(255, 255, 255, 0.1);
       border-radius: 20px;
     }
-
     /* Navigation */
     nav {
       position: fixed;
@@ -112,12 +105,10 @@
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
       align-items: center;
     }
-
     nav:hover {
       transform: translateX(-50%) translateY(-2px);
       box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
     }
-
     nav a {
       color: #ffffff;
       text-decoration: none;
@@ -129,7 +120,6 @@
       position: relative;
       overflow: hidden;
     }
-
     nav a::before {
       content: '';
       position: absolute;
@@ -140,59 +130,50 @@
       background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
       transition: left 0.5s;
     }
-
     nav a:hover::before {
       left: 100%;
     }
-
     nav a:hover {
       background: linear-gradient(135deg, #667eea, #764ba2);
       transform: translateY(-2px);
       box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
     }
-
     /* Logo Styling */
     .nav-logo {
       height: 40px;
       width: auto;
       object-fit: contain;
       margin-right: 20px;
-      border-radius: 8px; /* Added for rounded corners */
-      transition: all 0.3s ease; /* Added for smooth hover effect */
+      border-radius: 8px;
+      transition: all 0.3s ease;
     }
-
     .nav-logo:hover {
-      transform: scale(1.1); /* Added for hover scaling effect */
+      transform: scale(1.1);
     }
-
     @media (max-width: 768px) {
       .nav-logo {
         height: 30px;
         margin-right: 10px;
       }
     }
-
     @media (max-width: 480px) {
       .nav-logo {
         height: 25px;
         margin-right: 5px;
       }
     }
-
     /* Main Container */
     .wrapper {
       max-width: 1200px;
       margin: 0 auto;
       padding: 0 20px;
     }
-
     /* Hero Section */
     .hero {
       padding: 120px 0 80px;
       text-align: center;
       position: relative;
     }
-
     .hero h1 {
       font-size: clamp(2.5rem, 5vw, 4rem);
       font-weight: 800;
@@ -202,7 +183,6 @@
       line-height: 1.2;
       animation: fadeInUp 1s ease-out;
     }
-
     @keyframes fadeInUp {
       from {
         opacity: 0;
@@ -213,7 +193,6 @@
         transform: translateY(0);
       }
     }
-
     /* Sections */
     section {
       margin: 60px 0;
@@ -226,7 +205,6 @@
       position: relative;
       overflow: hidden;
     }
-
     section::before {
       content: '';
       position: absolute;
@@ -237,18 +215,15 @@
       background: linear-gradient(90deg, transparent, #667eea, #764ba2, transparent);
       animation: shimmer 3s infinite;
     }
-
     @keyframes shimmer {
       0% { left: -100%; }
       100% { left: 100%; }
     }
-
     section:hover {
       transform: translateY(-5px);
       background: rgba(255, 255, 255, 0.08);
       box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
     }
-
     h2 {
       font-size: 2.2rem;
       font-weight: 700;
@@ -259,7 +234,6 @@
       align-items: center;
       gap: 15px;
     }
-
     /* Enhanced Mobile-First Table */
     .table-container {
       width: 100%;
@@ -269,7 +243,6 @@
       background: rgba(0, 0, 0, 0.3);
       backdrop-filter: blur(15px);
     }
-
     table {
       width: 100%;
       min-width: 600px;
@@ -277,7 +250,6 @@
       border-spacing: 0;
       font-size: 0.9rem;
     }
-
     table th {
       background: linear-gradient(135deg, #667eea, #764ba2);
       color: white;
@@ -288,7 +260,6 @@
       position: relative;
       white-space: nowrap;
     }
-
     table td {
       padding: 15px 12px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -298,31 +269,25 @@
       word-break: break-word;
       hyphens: auto;
     }
-
     table tbody tr:hover td {
       background: rgba(255, 255, 255, 0.05);
       transform: scale(1.01);
     }
-
     table tbody tr:last-child td {
       border-bottom: none;
     }
-
     /* Mobile Table Cards */
     @media (max-width: 768px) {
       .table-container {
         overflow-x: hidden;
         background: transparent;
       }
-
       .table-container table {
         display: none !important;
       }
-
       .mobile-table {
         display: block !important;
       }
-
       .mobile-card {
         background: rgba(0, 0, 0, 0.4);
         backdrop-filter: blur(15px);
@@ -332,12 +297,10 @@
         margin-bottom: 20px;
         transition: all 0.3s ease;
       }
-
       .mobile-card:hover {
         background: rgba(255, 255, 255, 0.08);
         transform: translateY(-3px);
       }
-
       .mobile-card-header {
         background: linear-gradient(135deg, #667eea, #764ba2);
         color: white;
@@ -346,7 +309,6 @@
         font-weight: 700;
         margin-bottom: 15px;
       }
-
       .mobile-card-row {
         display: flex;
         justify-content: space-between;
@@ -355,24 +317,20 @@
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         flex-wrap: wrap;
       }
-
       .mobile-card-row:last-child {
         border-bottom: none;
       }
-
       .mobile-card-label {
         font-weight: 600;
         color: #f093fb;
         flex: 1;
         min-width: 80px;
       }
-
       .mobile-card-value {
         flex: 2;
         text-align: right;
         word-break: break-word;
       }
-
       .total-row {
         border-top: 2px solid #667eea;
         padding-top: 15px;
@@ -381,23 +339,19 @@
         font-size: 1.1rem;
       }
     }
-
     /* Hide mobile table by default */
     .mobile-table {
       display: none;
     }
-
     /* Status indicators */
     .status-urgent { color: #ff4757; font-weight: 700; }
     .status-critical { color: #ffa502; font-weight: 700; }
     .status-medium { color: #ff6b6b; font-weight: 700; }
-
     /* Lists Enhancement */
     ul {
       list-style: none;
       padding-left: 0;
     }
-
     ul li {
       padding: 12px 0;
       padding-left: 40px;
@@ -405,7 +359,6 @@
       transition: all 0.3s ease;
       word-wrap: break-word;
     }
-
     ul li::before {
       content: '→';
       position: absolute;
@@ -415,17 +368,14 @@
       font-size: 1.2rem;
       transition: all 0.3s ease;
     }
-
     ul li:hover {
       transform: translateX(10px);
       color: #f093fb;
     }
-
     ul li:hover::before {
       color: #f093fb;
       transform: scale(1.2);
     }
-
     /* Donation Section */
     .donation-section {
       text-align: center;
@@ -438,7 +388,6 @@
       position: relative;
       overflow: hidden;
     }
-
     .donation-section::before {
       content: '';
       position: absolute;
@@ -450,12 +399,10 @@
       animation: rotate 20s linear infinite;
       z-index: -1;
     }
-
     @keyframes rotate {
       from { transform: rotate(0deg); }
       to { transform: rotate(360deg); }
     }
-
     .note {
       background: rgba(255, 255, 255, 0.08);
       border-radius: 20px;
@@ -465,12 +412,10 @@
       border: 1px solid rgba(255, 255, 255, 0.1);
       transition: all 0.3s ease;
     }
-
     .note:hover {
       transform: translateY(-5px);
       box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
     }
-
     /* Modern Buttons */
     .donation-section button {
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -487,7 +432,6 @@
       overflow: hidden;
       box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
     }
-
     .donation-section button::before {
       content: '';
       position: absolute;
@@ -498,21 +442,17 @@
       background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
       transition: left 0.5s;
     }
-
     .donation-section button:hover::before {
       left: 100%;
     }
-
     .donation-section button:hover {
       transform: translateY(-3px);
       box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
       background: linear-gradient(135deg, #7c4dff 0%, #8e24aa 100%);
     }
-
     .donation-section button:active {
       transform: translateY(-1px);
     }
-
     /* Details sections */
     .details {
       display: none;
@@ -525,7 +465,6 @@
       border: 1px solid rgba(255, 255, 255, 0.1);
       animation: slideDown 0.3s ease-out;
     }
-
     @keyframes slideDown {
       from {
         opacity: 0;
@@ -536,7 +475,6 @@
         transform: translateY(0);
       }
     }
-
     .wallet {
       margin-bottom: 25px;
       padding: 20px;
@@ -547,19 +485,16 @@
       position: relative;
       word-break: break-all;
     }
-
     .wallet:hover {
       background: rgba(255, 255, 255, 0.08);
       transform: translateX(5px);
     }
-
     .wallet strong {
       color: #ffd700;
       font-size: 1.1rem;
       display: block;
       margin-bottom: 10px;
     }
-
     .wallet span {
       font-family: monospace;
       font-size: 0.9rem;
@@ -571,7 +506,6 @@
       word-break: break-all;
       user-select: all;
     }
-
     .copy-btn {
       background: linear-gradient(135deg, #2196f3, #21cbf3);
       border: none;
@@ -586,13 +520,11 @@
       box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
       width: 100%;
     }
-
     .copy-btn:hover {
       background: linear-gradient(135deg, #1976d2, #0288d1);
       transform: translateY(-2px);
       box-shadow: 0 6px 20px rgba(33, 150, 243, 0.4);
     }
-
     .qr {
       margin-top: 15px;
       display: inline-block;
@@ -602,36 +534,30 @@
       transition: all 0.3s ease;
       box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     }
-
     .qr:hover {
       transform: scale(1.05);
       box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
     }
-
     .qr img {
       width: 120px;
       height: 120px;
       border-radius: 10px;
     }
-
     /* Crypto donation button */
     .crypto-btn {
       display: inline-block;
       margin: 20px 0;
       transition: all 0.3s ease;
     }
-
     .crypto-btn:hover {
       transform: scale(1.05);
     }
-
     /* Reveal sections */
     .reveal {
       background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
       border: 2px solid rgba(102, 126, 234, 0.3);
       position: relative;
     }
-
     .reveal::after {
       content: '';
       position: absolute;
@@ -642,7 +568,68 @@
       background: linear-gradient(45deg, transparent 49%, rgba(102, 126, 234, 0.1) 50%, transparent 51%);
       pointer-events: none;
     }
-
+    /* Social Media Buttons */
+    .social-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      padding: 20px 0;
+      perspective: 800px;
+    }
+    .social-button {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #ffffff;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+      position: relative;
+      overflow: hidden;
+      transform: translateZ(0);
+      z-index: 1;
+    }
+    .social-button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, rgba(255,255,255,0.15), rgba(255,255,255,0));
+      transition: left 0.3s ease;
+      z-index: -1;
+    }
+    .social-button:hover::before {
+      left: 0;
+    }
+    .social-button:hover {
+      transform: translateY(-3px) translateZ(15px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    }
+    .social-button i {
+      margin-right: 8px;
+      font-size: 16px;
+    }
+    .youtube { background: linear-gradient(135deg, #c4302b, #ff6666); }
+    .twitter { background: linear-gradient(135deg, #00acee, #4ab3f4); }
+    .instagram { background: linear-gradient(135deg, #833ab4, #fd1d1d, #f77737); }
+    .tiktok { background: linear-gradient(135deg, #010101, #00f2ea); }
+    .facebook { background: linear-gradient(135deg, #1877f2, #4267b2); }
+    .linkedin { background: linear-gradient(135deg, #0a66c2, #00a0dc); }
+    @keyframes subtle-glow {
+      0% { box-shadow: 0 0 8px rgba(255,255,255,0.2); }
+      50% { box-shadow: 0 0 12px rgba(255,255,255,0.4); }
+      100% { box-shadow: 0 0 8px rgba(255,255,255,0.2); }
+    }
+    .social-button:active {
+      transform: translateY(0) translateZ(0);
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    }
     /* Responsive Design */
     @media (max-width: 768px) {
       nav {
@@ -653,30 +640,24 @@
         width: calc(100% - 20px);
         max-width: 400px;
       }
-
       nav a {
         font-size: 14px;
         padding: 8px 15px;
       }
-
       .hero {
         padding: 100px 0 60px;
       }
-
       .hero h1 {
         font-size: clamp(1.8rem, 8vw, 3rem);
         line-height: 1.3;
       }
-
       .wrapper {
         padding: 0 15px;
       }
-
       section {
         margin: 40px 0;
         padding: 25px 20px;
       }
-
       h2 {
         font-size: 1.8rem;
         flex-direction: column;
@@ -684,75 +665,60 @@
         gap: 10px;
         text-align: center;
       }
-
       .donation-section {
         padding: 40px 20px;
       }
-
       .donation-section button {
         width: 100%;
         margin: 8px 0;
         padding: 16px 20px;
       }
-
       .details {
         padding: 20px 15px;
       }
-
       .note {
         padding: 20px 15px;
       }
-
       ul li {
         font-size: 0.95rem;
         padding-left: 30px;
       }
-
       p {
         font-size: 1rem;
         line-height: 1.6;
       }
     }
-
     @media (max-width: 480px) {
       .hero h1 {
         font-size: clamp(1.5rem, 7vw, 2.5rem);
       }
-
       h2 {
         font-size: 1.5rem;
       }
-
       section {
         padding: 20px 15px;
         margin: 30px 0;
       }
-
       .wallet span {
         font-size: 0.8rem;
         padding: 8px;
       }
-
       .qr img {
         width: 100px;
         height: 100px;
       }
     }
-
     /* Smooth animations */
     * {
       transition: all 0.3s ease;
     }
-
     /* Loading animation for images */
     img {
       transition: opacity 0.3s ease;
     }
-
     img:not([src]) {
       opacity: 0;
     }
-
     /* Progress Bar */
     .progress-container {
       position: fixed;
@@ -763,7 +729,6 @@
       background: rgba(0, 0, 0, 0.1);
       z-index: 9999;
     }
-
     .progress-bar {
       height: 4px;
       background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
@@ -771,7 +736,6 @@
       transition: width 0.25s ease;
       border-radius: 2px;
     }
-
     /* Back to top button */
     .back-to-top {
       position: fixed;
@@ -791,17 +755,14 @@
       z-index: 1000;
       box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
     }
-
     .back-to-top.visible {
       opacity: 1;
       visibility: visible;
     }
-
     .back-to-top:hover {
       transform: translateY(-3px);
       box-shadow: 0 8px 30px rgba(102, 126, 234, 0.5);
     }
-
     /* Loading screen */
     .loading-screen {
       position: fixed;
@@ -816,12 +777,10 @@
       z-index: 10000;
       transition: opacity 0.5s ease;
     }
-
     .loading-screen.hidden {
       opacity: 0;
       pointer-events: none;
     }
-
     .loader {
       width: 50px;
       height: 50px;
@@ -830,12 +789,10 @@
       border-radius: 50%;
       animation: spin 1s linear infinite;
     }
-
     @keyframes spin {
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
     }
-
     /* Notification styles */
     .notification {
       position: fixed;
@@ -851,15 +808,12 @@
       max-width: 300px;
       word-wrap: break-word;
     }
-
     .notification.success {
       background: linear-gradient(135deg, #4CAF50, #45a049);
     }
-
     .notification.error {
       background: linear-gradient(135deg, #f44336, #d32f2f);
     }
-
     /* Enhanced accessibility */
     .sr-only {
       position: absolute;
@@ -872,13 +826,11 @@
       white-space: nowrap;
       border: 0;
     }
-
     /* Focus styles for better accessibility */
     a:focus, button:focus {
       outline: 2px solid #667eea;
       outline-offset: 2px;
     }
-
     /* Print styles */
     @media print {
       .bg-animation,
@@ -887,31 +839,26 @@
       .loading-screen {
         display: none !important;
       }
-      
       body {
         background: white !important;
         color: black !important;
       }
-      
       section {
         background: white !important;
         border: 1px solid #ccc !important;
         break-inside: avoid;
       }
     }
-
     /* High contrast mode support */
     @media (prefers-contrast: high) {
       body {
         background: black;
         color: white;
       }
-      
       section {
         border: 2px solid white;
       }
     }
-
     /* Reduced motion for accessibility */
     @media (prefers-reduced-motion: reduce) {
       *,
@@ -923,21 +870,17 @@
         scroll-behavior: auto !important;
       }
     }
-
     /* Custom scrollbar */
     ::-webkit-scrollbar {
       width: 8px;
     }
-
     ::-webkit-scrollbar-track {
       background: rgba(0, 0, 0, 0.1);
     }
-
     ::-webkit-scrollbar-thumb {
       background: linear-gradient(135deg, #667eea, #764ba2);
       border-radius: 10px;
     }
-
     ::-webkit-scrollbar-thumb:hover {
       background: linear-gradient(135deg, #7c4dff, #8e24aa);
     }
@@ -948,40 +891,33 @@
   <div class="loading-screen" id="loadingScreen">
     <div class="loader"></div>
   </div>
-
   <!-- Progress Bar -->
   <div class="progress-container">
     <div class="progress-bar" id="progressBar"></div>
   </div>
-
   <!-- Back to Top Button -->
   <button class="back-to-top" id="backToTop" aria-label="Back to top">
     <i class="fas fa-arrow-up"></i>
   </button>
-
   <!-- Animated Background -->
   <div class="bg-animation"></div>
-
   <!-- Navigation -->
   <nav>
     <img src="https://raw.githubusercontent.com/helpalihope/donate-helpalihope/main/logo.png" alt="Help Ali Hope Logo" class="nav-logo">
     <a href="#story"><i class="fas fa-book"></i> Story</a>
     <a href="#donate"><i class="fas fa-heart"></i> Donate</a>
   </nav>
-
   <div class="wrapper">
     <!-- Hero Section -->
     <div class="hero">
       <h1>💔 From Defeat to Victory: Ali Raza's Fight Against Crypto Fraud</h1>
     </div>
-
     <!-- Story Section -->
     <div id="story">
       <section>
         <p style="font-size: 1.2rem; font-weight: 500;">Hello, I'm Ali Raza, and I need your help.</p>
         <p>Two years ago, I dreamed of financial freedom and stability. Today, I am buried under $210,000 of debt after forex trading losses and the Treasure NFT scam. This is my story of betrayal, hard lessons, and my plea for a second chance.</p>
       </section>
-
       <section>
         <h2><i class="fas fa-chart-line"></i> How It Started: An Honest Try</h2>
         <p>I was a hardworking entrepreneur, working 12-hour days to save and build a future.</p>
@@ -993,7 +929,6 @@
           <li>Fell victim to Pakistan's largest crypto scam</li>
         </ul>
       </section>
-
       <section>
         <h2><i class="fas fa-exclamation-triangle"></i> The Disaster: Treasure NFT Fraud</h2>
         <p>In 2024, Treasure NFT emerged as a "revolutionary" project, promising huge profits and luring thousands with fake success stories.</p>
@@ -1014,7 +949,6 @@
           <li>Lost everything when Treasure NFT disappeared</li>
         </ul>
       </section>
-
       <section>
         <h2><i class="fas fa-chain"></i> The Debt Trap</h2>
         <p>The collapse didn't just cost money—it destroyed trust and relationships.</p>
@@ -1026,10 +960,8 @@
           <li>Additional loans created a cycle, totaling $210,000 in debt</li>
         </ul>
       </section>
-
       <section>
         <h2><i class="fas fa-calculator"></i> Current Debt Breakdown</h2>
-        
         <!-- Desktop Table -->
         <div class="table-container">
           <table>
@@ -1075,7 +1007,6 @@
             </tbody>
           </table>
         </div>
-
         <!-- Mobile Cards -->
         <div class="mobile-table">
           <div class="mobile-card">
@@ -1093,7 +1024,6 @@
               <div class="mobile-card-value">Daily threats, rising interest</div>
             </div>
           </div>
-
           <div class="mobile-card">
             <div class="mobile-card-header">Friends and Family</div>
             <div class="mobile-card-row">
@@ -1109,7 +1039,6 @@
               <div class="mobile-card-value">Broken trust, damaged relationships</div>
             </div>
           </div>
-
           <div class="mobile-card">
             <div class="mobile-card-header">Bank Loan</div>
             <div class="mobile-card-row">
@@ -1125,7 +1054,6 @@
               <div class="mobile-card-value">Legal notices received</div>
             </div>
           </div>
-
           <div class="mobile-card">
             <div class="mobile-card-header">Recovery Loans</div>
             <div class="mobile-card-row">
@@ -1141,7 +1069,6 @@
               <div class="mobile-card-value">Growing interest and fines</div>
             </div>
           </div>
-
           <div class="mobile-card total-row">
             <div class="mobile-card-header">Total Debt</div>
             <div class="mobile-card-row">
@@ -1159,7 +1086,6 @@
           </div>
         </div>
       </section>
-
       <section>
         <h2><i class="fas fa-heart-broken"></i> Personal Toll</h2>
         <ul>
@@ -1171,7 +1097,6 @@
         </ul>
         <p>At this rate, paying off my debt on my own would take over 80 years.</p>
       </section>
-
       <section>
         <h2><i class="fas fa-handshake"></i> My Commitment</h2>
         <p>I am sharing my story honestly to rebuild trust:</p>
@@ -1181,7 +1106,6 @@
           <li>Campaign ends the moment my debt reaches zero</li>
         </ul>
       </section>
-
       <section>
         <h2><i class="fas fa-newspaper"></i> Why This Matters</h2>
         <p>Treasure NFT was part of a global wave of crypto scams.</p>
@@ -1196,7 +1120,6 @@
           <li>Shows that honesty and transparency can overcome deceit</li>
         </ul>
       </section>
-
       <section>
         <h2><i class="fas fa-graduation-cap"></i> Lessons Learned</h2>
         <ul>
@@ -1212,7 +1135,6 @@
           <li>Educate others to avoid scams</li>
         </ul>
       </section>
-
       <section>
         <h2><i class="fas fa-hand-holding-heart"></i> How Your Help Makes a Difference</h2>
         <ul>
@@ -1224,7 +1146,6 @@
           <li>$2,500+ — Life-changing move toward freedom</li>
         </ul>
       </section>
-
       <section>
         <h2><i class="fas fa-calendar-alt"></i> Debt Repayment Plan</h2>
         <p><strong>Goal:</strong> Clear $210,000 by December 31, 2026</p>
@@ -1235,7 +1156,6 @@
         </ul>
         <p><strong>Plan:</strong> Combine donations, bike taxi income (~$200/month), and part-time work.</p>
       </section>
-
       <section class="reveal">
         <h2><i class="fas fa-shield-alt"></i> My Promise</h2>
         <p><strong>Mission:</strong> Eliminate $210,000 debt</p>
@@ -1243,14 +1163,12 @@
         <p><strong>End:</strong> Campaign stops when debt is zero</p>
         <p>This is not an investment or charity—it is my path to freedom.</p>
       </section>
-
       <section class="reveal">
         <h2><i class="fas fa-check-circle"></i> Clarity</h2>
         <p>✅ All donations will be used only for paying off debt.<br>
         ✅ No personal or risky investments will ever be made.<br>
         ✅ Once the debt is fully cleared, this campaign and website will be permanently closed.</p>
       </section>
-
       <section>
         <h2><i class="fas fa-sunrise"></i> Future Vision</h2>
         <p>Once debt-free:</p>
@@ -1260,46 +1178,48 @@
           <li>Rebuild trust through integrity</li>
         </ul>
       </section>
-
       <section>
         <h2><i class="fas fa-phone"></i> Contact</h2>
         <p>Ali Raza<br>
         Former entrepreneur, current bike driver, future success story<br>
         📧 Email: helpalihope@gmail.com</p>
+        <div class="social-buttons">
+          <a href="https://www.youtube.com/channel/UC-RoG9mndu0fFMrSuzmzvSg" target="_blank" rel="noopener noreferrer" class="social-button youtube" aria-label="Visit Ali Raza's YouTube channel"><i class="fab fa-youtube"></i> YouTube</a>
+          <a href="https://x.com/HopeRebuilder" target="_blank" rel="noopener noreferrer" class="social-button twitter" aria-label="Visit Ali Raza's Twitter profile"><i class="fab fa-twitter"></i> Twitter</a>
+          <a href="https://www.instagram.com/fromdebt.tohope/" target="_blank" rel="noopener noreferrer" class="social-button instagram" aria-label="Visit Ali Raza's Instagram profile"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="https://www.tiktok.com/@rebuild_with_hope" target="_blank" rel="noopener noreferrer" class="social-button tiktok" aria-label="Visit Ali Raza's TikTok profile"><i class="fab fa-tiktok"></i> TikTok</a>
+          <a href="https://web.facebook.com/profile.php?id=61578591566601" target="_blank" rel="noopener noreferrer" class="social-button facebook" aria-label="Visit Ali Raza's Facebook profile"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="https://www.linkedin.com/in/ali-raza-84790137b/" target="_blank" rel="noopener noreferrer" class="social-button linkedin" aria-label="Visit Ali Raza's LinkedIn profile"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        </div>
       </section>
     </div>
-
     <!-- Donation Section -->
     <div id="donate" class="donation-section">
       <h1><i class="fas fa-heart"></i> Support Ali Raza</h1>
-
       <div class="note">
         <h2><i class="fas fa-globe"></i> Donation Information</h2>
-        <p>If you want to make a small or large donation, please email me first at:<br>  
+        <p>If you want to make a small or large donation, please email me first at:<br>
         <strong>helpalihope@gmail.com</strong></p>
-        <p>✅ I will send you the official invoice only from this email address.<br>  
+        <p>✅ I will send you the official invoice only from this email address.<br>
         ❌ No other email will ever be used for invoices or donations.</p>
       </div>
-
       <!-- Payoneer -->
       <button onclick="toggleDetails('payoneer')"><i class="fab fa-paypal"></i> Payoneer</button>
       <div id="payoneer" class="details">
         <p><strong>Payoneer Email:</strong> mansa4155452@gmail.com</p>
-        <p>If you don't have a Payoneer account, please email me at  
+        <p>If you don't have a Payoneer account, please email me at
         <strong>helpalihope@gmail.com</strong> and I will send you an official invoice.</p>
-        <p>⚠️ Invoices will only come from <strong>helpalihope@gmail.com</strong>.  
+        <p>⚠️ Invoices will only come from <strong>helpalihope@gmail.com</strong>.
         Do not trust any third-party emails.</p>
       </div>
-
       <!-- Skrill -->
       <button onclick="toggleDetails('skrill')"><i class="fas fa-credit-card"></i> Skrill</button>
       <div id="skrill" class="details">
         <p><strong>Skrill Email:</strong> helpalihope@gmail.com</p>
-        <p>If you don't have a Skrill account, simply email me at  
+        <p>If you don't have a Skrill account, simply email me at
         <strong>helpalihope@gmail.com</strong> and I will provide you with an invoice.</p>
         <p>⚠️ Invoices are only sent from this email. No other email is linked to me.</p>
       </div>
-
       <!-- Bank Transfer -->
       <button onclick="toggleDetails('bank')"><i class="fas fa-university"></i> International Bank Transfer</button>
       <div id="bank" class="details">
@@ -1310,88 +1230,77 @@
         <p><strong>Currency:</strong> Any (PKR, USD, EUR, etc.)</p>
         <p>⚠️ Always confirm by emailing <strong>helpalihope@gmail.com</strong> before sending.</p>
       </div>
-
       <!-- Crypto Gateway -->
       <button onclick="toggleDetails('crypto')"><i class="fab fa-bitcoin"></i> Crypto Donations</button>
       <div id="crypto" class="details">
         <p>💠 Donate through the official NOWPayments gateway:</p>
         <div class="crypto-btn">
-          <a href="https://nowpayments.io/donation?api_key=8c2eba78-d6ae-401d-a885-792e7ebf78f3" 
-             target="_blank" rel="noreferrer noopener">
-             <img src="https://nowpayments.io/images/embeds/donation-button-black.svg" 
+          <a href="https://nowpayments.io/donation?api_key=8c2eba78-d6ae-401d-a885-792e7ebf78f3"
+             target="_blank" rel="noopener noreferrer" aria-label="Donate cryptocurrency via NOWPayments">
+             <img src="https://nowpayments.io/images/embeds/donation-button-black.svg"
              alt="Crypto donation button by NOWPayments">
           </a>
         </div>
-
         <h3>💠 Direct Wallet Addresses</h3>
-
         <div class="wallet">
-          <strong><i class="fab fa-bitcoin"></i> Litecoin (LTC):</strong>  
+          <strong><i class="fab fa-bitcoin"></i> Litecoin (LTC):</strong>
           <span id="ltc">LYD24REFppNQZUsMcEM3CYYOBFUWJhGFUC</span>
           <button class="copy-btn" onclick="copyAddress('ltc')"><i class="fas fa-copy"></i> Copy</button>
           <div class="qr">
             <img src="https://raw.githubusercontent.com/helpalihope/donate-helpalihope/main/ltc.png" alt="Litecoin QR">
           </div>
         </div>
-
         <div class="wallet">
-          <strong><i class="fab fa-bitcoin"></i> Solana (SOL):</strong>  
+          <strong><i class="fab fa-bitcoin"></i> Solana (SOL):</strong>
           <span id="sol">5MPD6rHYoA2KrEdpo1zr8he48kFGuRPyov54Gdf7zJc</span>
           <button class="copy-btn" onclick="copyAddress('sol')"><i class="fas fa-copy"></i> Copy</button>
           <div class="qr">
             <img src="https://raw.githubusercontent.com/helpalihope/donate-helpalihope/main/sol.png" alt="Solana QR">
           </div>
         </div>
-
         <div class="wallet">
-          <strong><i class="fab fa-ethereum"></i> Polygon (POS):</strong>  
+          <strong><i class="fab fa-ethereum"></i> Polygon (POS):</strong>
           <span id="polygon">0xf8f64592ffb5e1e85b20cbbec0105c56809b39c7</span>
           <button class="copy-btn" onclick="copyAddress('polygon')"><i class="fas fa-copy"></i> Copy</button>
           <div class="qr">
             <img src="https://raw.githubusercontent.com/helpalihope/donate-helpalihope/main/polygon.png" alt="Polygon QR">
           </div>
         </div>
-
         <div class="wallet">
-          <strong><i class="fab fa-bitcoin"></i> BNB Smart Chain (BEP20):</strong>  
+          <strong><i class="fab fa-bitcoin"></i> BNB Smart Chain (BEP20):</strong>
           <span id="bnb">0xf8f64592ffb5e1e85b20cbbec0105c56809b39c7</span>
           <button class="copy-btn" onclick="copyAddress('bnb')"><i class="fas fa-copy"></i> Copy</button>
           <div class="qr">
             <img src="https://raw.githubusercontent.com/helpalihope/donate-helpalihope/main/bnb.png" alt="BNB QR">
           </div>
         </div>
-
         <div class="wallet">
-          <strong><i class="fab fa-ethereum"></i> Ethereum (ERC20):</strong>  
+          <strong><i class="fab fa-ethereum"></i> Ethereum (ERC20):</strong>
           <span id="eth">0xf8f64592ffb5e1e85b20cbbec0105c56809b39c7</span>
           <button class="copy-btn" onclick="copyAddress('eth')"><i class="fas fa-copy"></i> Copy</button>
           <div class="qr">
             <img src="https://raw.githubusercontent.com/helpalihope/donate-helpalihope/main/eth.png" alt="Ethereum QR">
           </div>
         </div>
-
         <div class="wallet">
-          <strong><i class="fab fa-bitcoin"></i> Tron (TRC20):</strong>  
+          <strong><i class="fab fa-bitcoin"></i> Tron (TRC20):</strong>
           <span id="tron">TETLNWJ6hmozTURUJixj9AFMmywQdPbfQD</span>
           <button class="copy-btn" onclick="copyAddress('tron')"><i class="fas fa-copy"></i> Copy</button>
           <div class="qr">
             <img src="https://raw.githubusercontent.com/helpalihope/donate-helpalihope/main/tron.png" alt="Tron QR">
           </div>
         </div>
-
         <div class="wallet">
-          <strong><i class="fab fa-bitcoin"></i> Bitcoin (BTC SegWit):</strong>  
+          <strong><i class="fab fa-bitcoin"></i> Bitcoin (BTC SegWit):</strong>
           <span id="btc">bc1q7j403pgf9rfthwxz39ylxhdcOk2p6zzye7xyqv</span>
           <button class="copy-btn" onclick="copyAddress('btc')"><i class="fas fa-copy"></i> Copy</button>
           <div class="qr">
             <img src="https://raw.githubusercontent.com/helpalihope/donate-helpalihope/main/btc.png" alt="Bitcoin QR">
           </div>
         </div>
-
       </div>
     </div>
   </div>
-
   <script>
     // Loading screen - Faster loading
     window.addEventListener('load', function() {
@@ -1399,14 +1308,12 @@
       // Immediate hide after page load, no delay
       loadingScreen.classList.add('hidden');
     });
-
     // Progress bar on scroll
     window.addEventListener('scroll', function() {
       const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
       const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
       const scrolled = (winScroll / height) * 100;
       document.getElementById('progressBar').style.width = scrolled + '%';
-
       // Back to top button
       const backToTop = document.getElementById('backToTop');
       if (winScroll > 300) {
@@ -1415,7 +1322,6 @@
         backToTop.classList.remove('visible');
       }
     });
-
     // Back to top functionality
     document.getElementById('backToTop').addEventListener('click', function() {
       window.scrollTo({
@@ -1423,15 +1329,12 @@
         behavior: 'smooth'
       });
     });
-
     // Enhanced notification system
     function showNotification(message, type = 'success') {
       const notification = document.createElement('div');
       notification.className = `notification ${type}`;
       notification.innerHTML = `<i class="fas fa-${type === 'success' ? 'check' : 'times'}"></i> ${message}`;
-      
       document.body.appendChild(notification);
-      
       setTimeout(() => {
         notification.style.animation = "slideOutRight 0.3s ease-out forwards";
         setTimeout(() => {
@@ -1441,12 +1344,10 @@
         }, 300);
       }, 3000);
     }
-
     // Enhanced toggle function with smooth animations
     function toggleDetails(id) {
       const section = document.getElementById(id);
       const isVisible = section.style.display === "block";
-      
       // Close all other sections
       const allSections = document.querySelectorAll('.details');
       allSections.forEach(s => {
@@ -1454,7 +1355,6 @@
           s.style.display = "none";
         }
       });
-      
       // Toggle current section
       if (isVisible) {
         section.style.animation = "slideUp 0.3s ease-out forwards";
@@ -1467,11 +1367,9 @@
         section.style.animation = "slideDown 0.3s ease-out forwards";
       }
     }
-
     // Enhanced copy function with better feedback
     function copyAddress(id) {
       const copyText = document.getElementById(id).innerText;
-      
       if (navigator.clipboard && window.isSecureContext) {
         navigator.clipboard.writeText(copyText).then(function() {
           showNotification(`Address copied: ${copyText.substring(0, 15)}...`, 'success');
@@ -1482,7 +1380,6 @@
         fallbackCopyTextToClipboard(copyText);
       }
     }
-
     // Fallback copy function for older browsers
     function fallbackCopyTextToClipboard(text) {
       const textArea = document.createElement("textarea");
@@ -1493,17 +1390,14 @@
       document.body.appendChild(textArea);
       textArea.focus();
       textArea.select();
-      
       try {
         document.execCommand('copy');
         showNotification(`Address copied: ${text.substring(0, 15)}...`, 'success');
       } catch (err) {
         showNotification('Failed to copy address', 'error');
       }
-      
       document.body.removeChild(textArea);
     }
-
     // Add slide animations for notifications
     const style = document.createElement('style');
     style.textContent = `
@@ -1517,7 +1411,6 @@
           opacity: 1;
         }
       }
-      
       @keyframes slideOutRight {
         from {
           transform: translateX(0);
@@ -1528,7 +1421,6 @@
           opacity: 0;
         }
       }
-      
       @keyframes slideUp {
         from {
           opacity: 1;
@@ -1541,7 +1433,6 @@
       }
     `;
     document.head.appendChild(style);
-
     // Smooth scroll enhancement
     document.querySelectorAll('nav a').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
