@@ -286,12 +286,12 @@
         background: transparent;
       }
 
-      table {
-        display: none;
+      .table-container table {
+        display: none !important;
       }
 
       .mobile-table {
-        display: block;
+        display: block !important;
       }
 
       .mobile-card {
@@ -1363,12 +1363,11 @@
   </div>
 
   <script>
-    // Loading screen
+    // Loading screen - Faster loading
     window.addEventListener('load', function() {
       const loadingScreen = document.getElementById('loadingScreen');
-      setTimeout(() => {
-        loadingScreen.classList.add('hidden');
-      }, 1000);
+      // Immediate hide after page load, no delay
+      loadingScreen.classList.add('hidden');
     });
 
     // Progress bar on scroll
